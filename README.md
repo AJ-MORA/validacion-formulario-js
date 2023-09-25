@@ -1,7 +1,3 @@
-## Link al curso completo de Javascript en Youtube:
-[VIDEO CURSO GRATIS COMPLETO: JavaScript Desde Cero por Sergie Code](https://youtu.be/N8Xt5rP_DUo)
-
-
 # Tutorial de Validación de Formulario con Firebase
 
 Link para ver resultado: [FORMULARIO CON FIREBASE FINALIZADO](https://validar-formulario-js.netlify.app/)
@@ -13,14 +9,14 @@ Este es un tutorial paso a paso sobre cómo crear una aplicación de validación
 Antes de comenzar, asegúrate de obtener los datos de configuración necesarios de Firebase. Debes tener una cuenta de Firebase y un proyecto configurado. Luego, reemplaza los valores de `API_KEY`, `authDomain`, `projectId`, `storageBucket`, `messagingSenderId`, `appId` y `measurementId` en el objeto `firebaseConfig` con los valores correspondientes proporcionados por Firebase.
 
     const firebaseConfig = {
-      apiKey: "API_KEY",
-      authDomain: "authDomain",
-      projectId: "datos-de-formulario",
-      storageBucket: "datos-de-formulario.appspot.com",
-      messagingSenderId: "messagingSenderId",
-      appId: "appId",
-      measurementId: "measurementId"
-    };
+      apiKey: "AIzaSyCS-cxo7ARJWf0T6WDlUBawgKqx99bPSOM",
+      authDomain: "datos-de-formulario-54945.firebaseapp.com",
+      projectId: "datos-de-formulario-54945",
+      storageBucket: "datos-de-formulario-54945.appspot.com",
+      messagingSenderId: "378706094649",
+      appId: "1:378706094649:web:c927a560f81dae5b41bbe8",
+      measurementId: "G-EQGTM2JWE2"
+};
     
     // Inicializar Firebase
     firebase.initializeApp(firebaseConfig);
